@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  assignment:
+    build: .
+    container_name: react-assignment1
+    restart: always
+    ports:
+    - "4000:4000"
+    working_dir: /usr/src/app
+    volumes:
+    - '.:/usr/src/app'
+    - '/usr/src/app/node_modules'
+    environment:
+    - NODE_ENV=development
+    - CHOKIDAR_USEPOLLING=true

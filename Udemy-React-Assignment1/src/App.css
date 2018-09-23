@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  margin: 25px;
+  padding: 25px;
+  border: solid;
+  border-radius: 9px;
+}
+
+.inline {
+  display: inline;
+}
+
+.outputBorder {
+  border: dotted;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 6px;
+}
